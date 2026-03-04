@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Google Maps</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBM1F-BpX660SBK3-Vw9O9f7AEvTAIH8rI&callback=initMap&v=weekly" defer></script>
+  </head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="page2.html">My Repos</a></li>
+      <li><a href="page3.html">My Dogs</a></li>
+      <li><a href="page4.html">Google Maps</a></li>
+    </ul>
+  </nav>
+  <div id="container">
+    <div id="controls">
+      <a href="#" onclick="goHome()">Home</a>
+      <a href="#" onclick="goTo(48.8584, 2.2945)">Paris</a>
+      <a href="#" onclick="goTo(51.5074, -0.1278)">London</a>
+      <a href="#" onclick="goTo(40.7128, -74.0060)">New York</a>
+      <a href="#" onclick="zoomIn()">+ Zoom In</a>
+      <a href="#" onclick="zoomOut()">- Zoom Out</a>
+    </div>
+
+    <div id="map"></div>
+  </div>
+</body>
+</html>
