@@ -78,3 +78,32 @@ body {
   font-size: 0.85rem;
   padding: 0.25rem 0.75rem;
 }
+
+.job-meta {
+  margin-bottom: 0.5rem;
+}
+
+.job-title-text {
+  color: #1a1a2e;
+  display: block;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.job-org {
+  color: #2d2d44;
+  display: block;
+  font-size: 0.9rem;
+}
+
+.job-dates {
+  color: #c8a96e;
+  display: block;
+  font-size: 0.85rem;
+}
+
+.job-duties {
+  color: #2d2d44;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
