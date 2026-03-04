@@ -109,7 +109,8 @@ body {
 }
 
 .job-duties li {
-  padding-left: 1.2rem;
+  display: flex;
+  padding-left: 1rem;
 }
 
 .job-duties li::before {
