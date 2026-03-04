@@ -1,8 +1,45 @@
 .top-bar {
+  background-color: #1a1a2e;
   justify-content: center;
 }
 
+.top-bar ul {
+  background-color: #1a1a2e;
+}
+
 .menu-centered {
-  width: 100%;
   text-align: center;
+  width: 100%;
+}
+
+.resume-header {
+  background-color: #1a1a2e;
+  color: #fff;
+  padding: 2rem;
+}
+
+.resume-header .name {
+  font-size: 3rem;
+  margin: 0 0 0.5rem;
+}
+
+.resume-header .title {
+  color: #c8a96e;
+  font-size: 1rem;
+  margin: 0 0 1.5rem;
+  text-transform: uppercase;
+}
+
+.contact-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.chip {
+  background-color: #2d2d44;
+  border-radius: 1rem;
+  color: #fff;
+  font-size: 0.85rem;
+  padding: 0.25rem 0.75rem;
 }
