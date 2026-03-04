@@ -144,3 +144,34 @@ body {
   display: block;
   font-size: 0.85rem;
 }
+
+.skill-card {
+  border: 1px solid #dddbd4;
+  margin-bottom: 1rem;
+}
+
+.skill-card-header {
+  background-color: #1a1a2e;
+  color: #fff;
+  font-size: 0.85rem;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  text-transform: uppercase;
+}
+
+.skill-card ul {
+  list-style: none;
+  margin: 0.75rem 1rem;
+  padding: 0;
+}
+
+.skill-card ul li {
+  background-color: #f5f4f0;
+  border: 1px solid #dddbd4;
+  border-radius: 1rem;
+  color: #2d2d44;
+  display: inline-block;
+  font-size: 0.8rem;
+  margin: 0.25rem;
+  padding: 0.2rem 0.75rem;
+}
