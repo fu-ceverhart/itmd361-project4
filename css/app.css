@@ -126,16 +126,19 @@ body {
 
 .edu-institution {
   color: #1a1a2e;
-  font-size: 1.1rem;
+  display: block;
+  font-size: 1rem;
   font-weight: bold;
 }
 
 .edu-degree {
   color: #2d2d44;
+  display: block;
   font-size: 0.9rem;
 }
 
 .edu-grad {
   color: #c8a96e;
+  display: block;
   font-size: 0.85rem;
 }
