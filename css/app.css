@@ -118,3 +118,24 @@ body {
   content: '—';
   padding-right: .75em;
 }
+.edu-card {
+  border-left: 4px solid #c8a96e;
+  border: 1px solid #dddbd4;
+  padding: 1rem;
+}
+
+.edu-institution {
+  color: #1a1a2e;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.edu-degree {
+  color: #2d2d44;
+  font-size: 0.9rem;
+}
+
+.edu-grad {
+  color: #c8a96e;
+  font-size: 0.85rem;
+}
