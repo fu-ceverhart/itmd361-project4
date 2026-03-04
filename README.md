@@ -34,3 +34,5 @@ This project consists of creating three HTML pages, each containing one desktop-
 - [x]  Add one valid, error-free JavaScript file with your original code; linked from the head of all four HTML files
 - [x]  Make sure your JavaScript throws no uncaught errors and is loaded unobtrusively. You can check for errors using the console on your browser inspector
 - [x]  For the final turn-in, add a JavaScript picture slider to one of your pages.
+### Project 4 Requirements
+- [ ]  For this project, use the content from your Resume to create a new website page using Foundation framework.
