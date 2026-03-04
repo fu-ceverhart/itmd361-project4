@@ -104,6 +104,16 @@ body {
 
 .job-duties {
   color: #2d2d44;
-  line-height: 1.6;
+  list-style: none;
   margin-bottom: 1.5rem;
+}
+
+.job-duties li {
+  padding-left: 1.2rem;
+}
+
+.job-duties li::before {
+  color: #c8a96e;
+  content: '—';
+  padding-right: 1em;
 }
