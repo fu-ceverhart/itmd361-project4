@@ -115,5 +115,5 @@ body {
 .job-duties li::before {
   color: #c8a96e;
   content: '—';
-  padding-right: 1em;
+  padding-right: .75em;
 }
