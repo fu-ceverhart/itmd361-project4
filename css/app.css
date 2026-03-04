@@ -147,7 +147,9 @@ body {
 
 .skill-card {
   border: 1px solid #dddbd4;
+  border-radius: 0.5rem;
   margin-bottom: 1rem;
+  overflow: hidden;
 }
 
 .skill-card-header {
